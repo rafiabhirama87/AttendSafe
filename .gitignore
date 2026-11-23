@@ -1,0 +1,35 @@
+# Environment dan credentials
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Data biometrik dan foto wajah
+backend/registered_faces/
+backend/test_images/
+backend/padded_faces/
+backend/resized_faces/
+
+# Backup
+backend/main_backup_before_postgres.py
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+opencv-python
+python-multipart
+numpy
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+pwdlib[argon2]
